@@ -1,0 +1,9 @@
+# Git and GitHub Notes
+
+- Repository: a project folder with its version history
+- Clone: copy a GitHub repository to my computer
+- Commit: save changes with a message
+- Push: send my commits to GitHub
+- Pull: get new changes from GitHub
+- Branch: a separate copy to work on without touching main
+- Pull Request: a request to merge a branch into main
