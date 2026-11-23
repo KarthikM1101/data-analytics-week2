@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Iwvvg_hAqDo_Ojza6Lzx">
+    <mxGraphModel dx="1084" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-10" edge="1" parent="1" source="s7X-yN-jxjRVPyfsDiaf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="s7X-yN-jxjRVPyfsDiaf-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="User&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="100" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-11" edge="1" parent="1" source="s7X-yN-jxjRVPyfsDiaf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="s7X-yN-jxjRVPyfsDiaf-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#3399FF;" value="&#xa;&lt;strong&gt;Frontend&lt;/strong&gt; (Web / Mobile App)&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-12" edge="1" parent="1" source="s7X-yN-jxjRVPyfsDiaf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="s7X-yN-jxjRVPyfsDiaf-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-13" edge="1" parent="1" source="s7X-yN-jxjRVPyfsDiaf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="s7X-yN-jxjRVPyfsDiaf-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-21" connectable="0" parent="s7X-yN-jxjRVPyfsDiaf-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Save order (SQL)" vertex="1">
+          <mxGeometry relative="1" x="0.5263" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-14" edge="1" parent="1" source="s7X-yN-jxjRVPyfsDiaf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="s7X-yN-jxjRVPyfsDiaf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-22" connectable="0" parent="s7X-yN-jxjRVPyfsDiaf-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Write log" vertex="1">
+          <mxGeometry relative="1" x="0.6629" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#99FF99;" value="Backend API&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#99FF99;" value="Authentication&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-15" edge="1" parent="1" source="s7X-yN-jxjRVPyfsDiaf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="s7X-yN-jxjRVPyfsDiaf-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FF8000;" value="Database" vertex="1">
+          <mxGeometry height="80" width="60" x="444" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#99FF99;" value="Logging" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-16" edge="1" parent="1" source="s7X-yN-jxjRVPyfsDiaf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="s7X-yN-jxjRVPyfsDiaf-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-23" edge="1" parent="1" source="s7X-yN-jxjRVPyfsDiaf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;" target="s7X-yN-jxjRVPyfsDiaf-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-24" connectable="0" parent="s7X-yN-jxjRVPyfsDiaf-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Extract daily" vertex="1">
+          <mxGeometry relative="1" x="0.0132" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF9933;" value="Data Pipeline (ETL)" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-17" edge="1" parent="1" source="s7X-yN-jxjRVPyfsDiaf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="s7X-yN-jxjRVPyfsDiaf-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FF9933;" value="Data Warehouse" vertex="1">
+          <mxGeometry height="80" width="60" x="260" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#CC99FF;" value="Analytics Dashboard" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Clicks Buy&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Verify token" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Clean and load" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Query for reports" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTPS request (POST /orders)" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="s7X-yN-jxjRVPyfsDiaf-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Flow: User Action to Analytics Dashboard&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="490" x="190" y="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

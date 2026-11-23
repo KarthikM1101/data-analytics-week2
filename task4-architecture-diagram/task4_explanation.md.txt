@@ -1,0 +1,12 @@
+# Data Flow: From User Action to Analytics Dashboard
+
+Example: a user clicks "Buy" in a trading app.
+
+1. The user clicks Buy on the frontend (web or mobile app).
+2. The frontend sends an HTTPS request (POST /orders) to the backend API.
+3. The backend checks the user's token with the authentication service.
+4. If the user is valid, the backend saves the order in the database. The backend also writes a log entry and returns a success or error message to the user.
+5. A data pipeline (ETL) runs daily. It extracts new orders from the database, cleans them and loads them into the data warehouse.
+6. The analytics dashboard (for example Tableau) reads the data warehouse and shows reports such as total orders, revenue and top stocks.
+
+Key terms: frontend, backend, REST API, authentication, database, data pipeline, logging, error handling.
